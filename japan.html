@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+QLD+Hand:wght@700&family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Neonderthaw&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="./img/icon/android-chrome-192x192.png">
+    <title>Japan</title>
+
+</head>
+<body class="japan-page">
+    <nav class="navbar">
+        <div class="navbar-flex">
+            <a href="home.html">
+                <img src="./img/icon/page2.png" alt="logo" class="logo">
+            </a>
+<!-- main menu -->
+            <div class="main-menu">
+                <ul class="main-menu-list">
+                    <li><a href="japan.html">Japan</a></li>
+                    <li><a href="argentina.html">Argentina</a></li>
+                    <li><a href="canada.html">Canada</a></li>
+                    <li><a href="uk.html">United Kingdom</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+
+<!--page 2-->
+    <article>
+    <div class="banner">
+        <img src="./img/spring-page.png" alt="japan sakura">
+        <h2>Spring<br> Cherry Blossom in Japan</h2>
+    </div>
+    
+    <div class="tab-wrap">
+    <div class="tab-buttons">
+    <button class="tab-btn active" data-tab="tab-plant">Plant Feature & Introduction</button>
+    <button class="tab-btn" data-tab="tab-festival">Local Celebration & Festival</button>
+    <button class="tab-btn" data-tab="tab-location">Best Viewing Time & Location</button>
+    </div>
+
+    <div class="tab-content-wrap">
+    <div class="tab-content active" id="tab-plant">
+        <p>  <strong>Cherry blossom</strong>, widely known as <strong>Sakura</strong>, is Japan's most iconic spring flower and a profound cultural symbol of purity, transience, and renewal. These deciduous trees produce delicate pale pink and white five-petaled flowers that cluster densely along bare branches before new leaves grow. Unlike most flowers that last for months, cherry blossoms bloom for only one to two weeks every year. Gentle wind easily blows petals down, creating the famous “sakura snow”. This short blooming period inspires the Japanese philosophy of appreciating fleeting beauty and living in the moment. Over 1,000 cherry trees line the walkways of Ueno Park, creating soft cloud-like pink scenery that defines Japan's famous spring atmosphere and attracts visitors from all over the globe.</p>
+        <img src="./img/spring-sakura-web.png" alt="sakara" weight="100%">
+    </div>
+
+    <div class="tab-content" id="tab-festival">
+        <p>The traditional Japanese custom of <strong>Hanami</strong> takes place every spring. Locals and tourists spread picnic blankets under blooming cherry trees to enjoy food, drinks, and gatherings with friends and family. Ueno Park hosts the famous <strong>Ueno Sakura Matsuri</strong> every year from mid-March to early April, featuring food stalls, antique markets, live performances, and magical night cherry-blossom light-up displays after sunset.</p>
+        <img src="./img/spring-sakura-1.png" alt="Ueno Sakura Matsuri"  weight="100%">
+    </div>
+
+    <div class="tab-content" id="tab-location">
+        <p><strong>Best Time:</strong> Late March to Early April (full bloom season)</p>
+        <p><strong>Location:</strong> Ueno Park, Taito City, Tokyo 110-0007, Japan</p>
+        <p><strong>How to Get There:</strong> Depart from central Tokyo, take JR Yamanote Line to Ueno Station, 3-minute walk to Ueno Park main entrance.</p>
+        <p><strong>GPS Coordinates:</strong> <a href="https://www.google.com/maps?q=35.7164,139.7742" target="_blank">35.7164° N, 139.7742° E  <br>Tokyo, Japan</a></p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3239.3991849416416!2d139.77162507578933!3d35.716399972575935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzXCsDQyJzU5LjAiTiAxMznCsDQ2JzI3LjEiRQ!5e0!3m2!1szh-TW!2shk!4v1791212711973!5m2!1szh-TW!2shk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+    </div>
+    </div>
+</div>
+<script src="./tour.js"></script>
+
+</article>
+
+
+
+<!--footer-->
+    <footer class="section footer">
+    <p class="copyright">copyright &copy; backroads travel tours company <span id="date"></span>.all rights reserved</p>
+    </footer>
+</body>
+</html>
