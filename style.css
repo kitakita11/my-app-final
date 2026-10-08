@@ -166,7 +166,7 @@ body{
 .card-container-3,
 .card-container-4{
     width: 400px;
-    height: 600px;
+    height: 550px;
     perspective: 1000px;
 }
 
@@ -198,11 +198,11 @@ body{
     width: 100%;
     height: 100%;
     backface-visibility: hidden;
-    border-radius:14px;
+    border-radius:10px;
     overflow:hidden;
     display:flex;
     justify-content:center;
-    padding:24px;
+    padding:20px;
     font-size:28px;
     font-weight:bold;
     color: #FFF7CC;
@@ -227,7 +227,7 @@ body{
 
 
 .card1 .front,.card1 .back{
-    background-image: url("./img/spring-we.png");
+    background-image: url("./img/SPRING-WEB.png");
 }
 .card2 .front,.card2 .back{
     background-image: url("./img/SUMMER-WEB.png");
